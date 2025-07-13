@@ -1,0 +1,33 @@
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main {
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: calc(
+    100vh - 160px
+  );
+}
+
+.footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

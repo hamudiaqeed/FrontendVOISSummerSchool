@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* box-sizing: border-box face ca dimensiunile unui element (lățimea și înălțimea) să includă și padding-ul și border-ul,  */
+/* astfel încât să nu crească dimensiunile elementului */
+
+body {
+  background-color: pink;
+  padding: 15px;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: aquamarine;
+}
+
+aside {
+  width: 30%;
+  background-color: aqua;
+  height: 60vh; /* Înălțimea este 60% din înălțimea viewport-ului */
+}
+
+article {
+  width: 70%;
+  background-color: lightcoral;
+  height: 60vh;
+  display: flex;
+  flex-direction: column; /* Aliniază elementele interne pe verticală */
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  gap: 15px;
+  flex-direction: row; /* Aliniază elementele pe orizontală */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.images-container div {
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
